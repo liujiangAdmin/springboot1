@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: zsyy-zjsrmyy
+    url: jdbc:mysql://192.168.0.10:3306/zsyy-zjsrmyy-test?useUnicode=true&characterEncoding=UTF-8
+    username: ucmed
+    password: csyz1573@mysql
+  session:
+    store-type: redis
+  redis:
+    host: 192.168.1.103
+    port: 6379
+    timeout: 30000
